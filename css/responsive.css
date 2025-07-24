@@ -625,6 +625,14 @@
         line-height: 30px;
     }
 
+    .deal-left-part {
+        flex-direction: column !important;
+    }
+
+    .deal-image > img {
+        height: 100% !important;
+    }
+
 
 
     /* ----------------------------
