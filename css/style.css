@@ -52,7 +52,7 @@ p.title-description{
 ----------------------------- */
 
 header{
-    padding: 15px 0px;
+    padding: 12px 0px;
 }
 
 .navbar-flex{
@@ -89,6 +89,12 @@ header{
     font-weight: 400;
     line-height: 24px; 
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.header-nav > nav > ul > li > a:hover{
+    font-weight: 700;
+    color: #E95A08 !important;
 }
 
 .header-nav > nav > ul > li.active > a{
@@ -235,6 +241,11 @@ header{
     line-height: normal;
     border: 0px;
     outline: 0px;
+    transition: 0.6s;
+}
+
+.shop-card-details > a > .shop-button:hover{
+    background: #000000;
 }
 
 
@@ -270,7 +281,7 @@ header{
     top: -95px;
     width: 186px;
     height: 186px;
-    animation: spin 10s linear infinite;
+    animation: spin 9s linear infinite;
 }
 
 @keyframes spin {
@@ -339,7 +350,7 @@ header{
 .deal-image > img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 220px;
     border-radius: 24px;
 }
 
@@ -477,6 +488,7 @@ header{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
