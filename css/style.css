@@ -417,7 +417,7 @@ header{
     Subscribe Style
 ------------------------------- */
 .subscribe-section {
-    padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
 }
 
 .subscribe-bg {
@@ -477,4 +477,78 @@ header{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+}
+
+
+
+/* -----------------------------
+    Footer Style
+-------------------------------- */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(9px);
+    padding: 60px 0px 50px 0px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    justify-items: center;
+    gap: 40px;
+}
+
+.footer-left > img{
+    width: 135px;
+    height: 82px;
+    display: block;
+}
+
+.footer-left > p{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-right: 45px;
+}
+
+.footer-middle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 80px;
+    justify-items: center;
+}
+
+.footer-middle > .footer-link > ul {
+    list-style: none;
+}
+
+.footer-middle > .footer-link > ul > li > a{
+    color: #6B7280;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; 
+    text-decoration: none;
+}
+
+.footer-right > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-right > ul > li > a > img{ 
+    width: 36px;
+    height: auto;
 }

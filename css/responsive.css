@@ -184,7 +184,7 @@
         Subscribe Responsive
     ------------------------------- */
     .subscribe-section {
-        padding: 40px 0px;
+        padding: 40px 0px 0px 0px;
     }
 
     .subscribe-bg {
@@ -206,5 +206,43 @@
     .subscribe-flex > button {
         padding: 14px 10px;
         font-size: 13px;
+    }
+
+
+
+    /* ----------------------------
+        Footer Responsive
+    ------------------------------- */
+    footer {
+        padding: 40px 0px;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: unset;
+        gap: 30px;   
+    }
+
+    .footer-left > p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 15px;
+        padding-right: 0px;
+    }
+
+    .footer-middle {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: unset;
+        gap: 0px;
+        justify-items: unset;
+    }
+
+    .footer-right > ul {
+        list-style: none;
+        display: flex;
+        justify-content: unset;
+        align-items: unset;
+        gap: 34px;
     }
 }
