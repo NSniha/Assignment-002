@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5F8FF;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+h2.title{
+    color: #000000;
+    font-family: "Noto Serif";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2.title > span{
+    color: #E95A08;
+}
+
+p.title-description{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 12px;
+}
+
+
+
+/* -------------------------
+    Header Style
+----------------------------- */
+
+header{
+    padding: 15px 0px;
+}
+
+.navbar-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo > a > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+}
+
+.header-nav > nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+}
+
+.header-nav > nav > ul > li > a{
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-decoration: none;
+}
+
+.header-nav > nav > ul > li.active > a{
+    color: #252432;
+    font-weight: 700;
+}
+
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cart-btn > p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+
+
+/* ---------------------------
+    Hero Style
+------------------------------ */
+.hero-section{
+    padding: 0px 0px 60px 0px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.hero-section-flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.hero-image {
+    background-image: url('../images/hero-flower.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    height: 490px;
+}
+.hero-context{
+    width: 900px;
+}
+.hero-context > h1{
+    color: #000;
+    font-family: "Noto Serif";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.hero-context > h1 > span{
+    color: #E95A08;
+}
+
+.hero-context > p{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+
+
+/* --------------------------
+    Shop Style
+------------------------------ */
+.shop-section{
+    padding: 60px 0px;
+}
+
+.shop-title-area{
+    max-width: 750px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.shop-card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shop-card{
+    background-color: #ffffff;
+}
+
+.shop-card > img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.shop-card-details{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.shop-card-details > h3{
+    color: #3e3e3e;
+    font-family: "Noto Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.shop-card-details > h4{
+    color: #111;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+}
+
+.shop-card-details > a > button{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.shop-card-details > a > .shop-button{
+    background: #E95A08;
+    color: #FFF;
+    padding: 18px 70px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0px;
+    outline: 0px;
+}

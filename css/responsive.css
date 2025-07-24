@@ -1,0 +1,110 @@
+@media only screen and (max-width: 576px){
+    .container {
+        width: 100%;
+        max-width: 576px;
+        padding: 0px 15px;
+    }
+
+    h2.title {
+        font-size: 32px;
+    }
+
+    p.title-description {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 4px;
+    }
+
+
+
+    /* --------------------------------
+        Header Responsive
+    ---------------------------------- */
+    .header-nav > nav > ul {
+        display: none;
+    }
+
+    .hero-section{
+        padding: 40px 0px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-logo > a > img {
+        width: 84px;
+        height: 48px;
+        display: block;
+    }
+
+
+
+    /* -------------------------------
+        Hero Responsive
+    ---------------------------------- */
+    .hero-section-flex {
+        display: flex;
+        align-items: unset;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .hero-context {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .hero-context > h1 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .hero-image {
+        height: 245px;
+        background-size: cover;
+    }
+
+    .hero-context > p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 5px;
+    }
+
+
+
+    /* -------------------------------
+        Shop Responsive
+    ---------------------------------- */
+    .shop-section {
+        padding: 40px 0px;
+    }
+
+    .shop-title-area {
+        max-width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .shop-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .shop-card-details > h3 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .shop-card-details > h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .shop-card-details > a > .shop-button {
+        padding: 10px 0px;
+        font-size: 14px;
+        width: 88%;
+    }
+}
