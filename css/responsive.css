@@ -183,6 +183,270 @@
     }
 }
 
+@media (min-width: 769px) and (max-width: 920px){
+    .container {
+        width: 100%;
+        max-width: 920px;
+        padding: 0px 15px;
+    }
+
+    h2.title {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    p.title-description {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 4px;
+        max-width: 665px;
+        margin: 0 auto;
+    }
+
+
+
+    /* --------------------------------
+        Header Responsive
+    ---------------------------------- */
+    header {
+        padding: 10px 0px;
+    }
+
+    .header-nav > nav > ul {
+        gap: 38px;
+    }
+
+    .hero-section{
+        padding: 60px 0px 40px 0px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-logo > a > img {
+        width: 110px;
+        height: 64px;
+        display: block;
+    }
+
+
+
+    /* -------------------------------
+        Hero Responsive
+    ---------------------------------- */
+    .hero-section-flex {
+        display: flex;
+        align-items: unset;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .hero-context {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .hero-context > h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-image {
+        height: 410px;
+        background-position: right;
+        width: 100%;
+    }
+
+    .hero-context > p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 8px;
+    }
+
+
+    /* -------------------------------
+        Shop Responsive
+    ---------------------------------- */
+    .shop-section {
+        padding: 40px 0px;
+    }
+
+    .shop-title-area {
+        max-width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .shop-card-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .shop-card-details {
+        padding: 15px 0px;
+    }
+
+    .shop-card-details > h3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .shop-card-details > h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .shop-card-details > a > button {
+        margin-top: 10px;
+    }
+
+    .shop-card-details > a > .shop-button {
+        padding: 10px 0px;
+        font-size: 14px;
+        width: 88%;
+    }
+
+
+    /* -----------------------------
+        About Responsive
+    ------------------------------- */
+    .about-section {
+        padding: 40px 0px;
+    }
+
+    .about-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .trust-icon {
+        display: none;
+    }
+
+    .about-details > ul {
+        padding: 25px 0px 0px 18px;
+    }
+
+    .about-details > ul > li {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 17px;
+    }
+
+
+    /* --------------------------
+        Deal Responsive
+    ----------------------------- */
+    .deal-section {
+        padding: 20px 0px 40px 0px;
+    }
+
+    .deals-details {
+        padding-bottom: 40px;
+        max-width: 100%;
+    }
+
+    .deal-grid {
+        grid-template-columns: unset;
+        gap: 14px;
+    }
+
+    .deal-left-part {
+        gap: 14px;
+        flex-direction: row-reverse;
+    }
+
+    .deal-right-part .deal-image > img {
+        height: 300px ;
+        width: 100%;
+    }
+
+    .deal-left-part .deal-image > img {
+        height: 230px;
+        width: 100%;
+    }
+
+    .deal-context-1 > h3{
+        font-size: 22px;
+        padding-bottom: 12px;
+        line-height: 30px;
+    }
+
+    .deal-context-2 > h3 {
+        font-size: 30px;
+        padding-bottom: 12px;
+        line-height: 40px;
+    }
+
+
+    /* ----------------------------
+        Subscribe Responsive
+    ------------------------------- */
+    .subscribe-section {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .subscribe-bg {
+        height: 100%;
+        padding: 120px 0px;
+    }
+
+    .subscribe-context > h2 {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    .subscribe-flex > input {
+        width: 100%;
+        padding: 14.5px 8px;
+        font-size: 14px;
+    }
+
+    .subscribe-flex > button {
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+
+
+    /* ----------------------------
+        Footer Responsive
+    ------------------------------- */
+    footer {
+        padding: 40px 0px;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: unset;
+        gap: 30px;   
+    }
+
+    .footer-left > p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 15px;
+        padding-right: 0px;
+    }
+
+    .footer-middle {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: normal;
+        gap: 0px;
+        justify-items: normal;
+    }
+
+    .footer-right > ul {
+        list-style: none;
+        display: flex;
+        justify-content: unset;
+        align-items: unset;
+        gap: 34px;
+    }
+}
+
 
 @media only screen and (max-width: 768px){
     .container {
@@ -239,7 +503,7 @@
         align-items: unset;
         justify-content: space-between;
         flex-direction: column;
-        gap: 30px;
+        gap: 6px;
     }
 
     .hero-context {
@@ -253,8 +517,9 @@
     }
 
     .hero-image {
-        height: 465px;
-        background-size: cover;
+        height: 410px;
+        background-position: right;
+        width: 100%;
     }
 
     .hero-context > p {
@@ -362,7 +627,7 @@
         height: 300px;
     }
 
-    .deal-image > img {
+    .deal-left-part .deal-image > img {
         height: 198px;
     }
 
